@@ -10,19 +10,10 @@
 ```python
 from quadratic_equation import get_roots
 
+...
+root1, root2 = get_roots(a, b, c)
+...
 
-def Calculator():
-    print("Введите аргументы уравнения: a,b,c")
-    a = int(input())
-    b = int(input())
-    c = int(input())
-    root1, root2 = get_roots(a, b, c)
-    if root1 == None and root2 == None:
-        print("Уравнение не имеет корней")
-    elif root2 == None:
-        print("Корень уравнения равен: %d" % root1)
-    else:
-        print("Корни уравнения x1 = %s, x2 = %s " % (root1, root2))
 ```
 # Как запустить
 
